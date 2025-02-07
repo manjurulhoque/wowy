@@ -173,7 +173,7 @@ The system supports product variants with different sizes and colors. This allow
 - Django Debug Toolbar
 
 ### Payment Gateways
-- Stripe // not added yet
+- Stripe
 - PayPal // not added yet
 
 ### Development Tools
