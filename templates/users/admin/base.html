@@ -12,11 +12,11 @@
     <link rel="icon" href="{% static 'frontend/images/fav.png' %}" type="image/x-icon">
 	<link href="{% static 'frontend/admin/css/styles.css' %}" rel="stylesheet">
 	<link href="{% static 'frontend/admin/css/admin-style.css' %}" rel="stylesheet">
-	
+
 	<!-- Vendor Stylesheets -->
 	<link href="{% static 'frontend/admin/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 	<link href="{% static 'frontend/admin/vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet">
-	
+
 </head>
 
     <body class="sb-nav-fixed">
@@ -47,7 +47,7 @@
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <a class="nav-link {% if request.resolver_match.url_name == 'admin.index' %}active{% endif %}" href="{% url 'admin:index' %}">
+                            <a class="nav-link {% if request.resolver_match.url_name == 'admin.index' %}active{% endif %}" href="{% url 'users:admin.index' %}">
 								<div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
 							</a>
@@ -141,6 +141,6 @@
 		<script src="{% static 'frontend/admin/vendor/chart/accessibility.js' %}"></script>
         <script src="{% static 'frontend/admin/js/scripts.js' %}"></script>
         <script src="{% static 'frontend/admin/js/chart.js' %}"></script>
-       
+
     </body>
 </html>
