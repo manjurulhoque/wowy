@@ -173,7 +173,7 @@ The system supports product variants with different sizes and colors. This allow
 - Django Debug Toolbar
 
 ### Payment Gateways
-- Stripe // not added yet
+- Stripe
 - PayPal // not added yet
 
 ### Development Tools
@@ -186,8 +186,8 @@ The system supports product variants with different sizes and colors. This allow
 
 1. Clone the repository
 ```bash
-git clone https://github.com/manjurulhoque/django_gambo.git gambo
-cd gambo
+git clone https://github.com/manjurulhoque/wowy.git wowy
+cd wowy
 ```
 
 2. Create and activate virtual environment
