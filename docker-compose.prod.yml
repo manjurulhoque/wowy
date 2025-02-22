@@ -12,7 +12,7 @@ services:
       - static_volume:/usr/src/app/staticfiles
       - media_volume:/usr/src/app/mediafiles
     #    env_file: .env
-    command: gunicorn jobs.wsgi:application --bind 0.0.0.0:8000
+    command: gunicorn gambo.wsgi:application --bind 0.0.0.0:8000
 
   nginx:
     restart: always
