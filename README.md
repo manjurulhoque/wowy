@@ -421,5 +421,8 @@ DJSTRIPE_FOREIGN_KEY_TO_FIELD = "id"
    - Order created upon successful payment
 4. Order confirmation and invoice generation
 
+### Deployment
+Using Docker to deploy
+
 ---
 ⌨️ with ❤️ by [Manjurul Hoque Rumi](https://github.com/manjurulhoque)
