@@ -25,7 +25,7 @@ RUN apk update \
 # Copy the rest of the application
 COPY . .
 
-RUN cp .env.sample .env
+RUN cp .env.example .env
 
 ENV APP_HOME=/usr/src/app
 # No need to create directories twice
